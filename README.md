@@ -54,3 +54,7 @@ curl -fsSL https://raw.githubusercontent.com/H-T-H/proxy-cli/main/install.sh | b
 
 安装脚本把 `proxy.sh` 放到 `~/.local/share/proxy-cli/`，并在 `~/.bashrc`（及已存在的 `~/.zshrc`）中加入一段 `source` 语句。
 命令以 shell 函数形式加载，因此能直接修改当前会话的环境变量，而不会影响其他终端。
+
+## 许可证
+
+[MIT](LICENSE)
